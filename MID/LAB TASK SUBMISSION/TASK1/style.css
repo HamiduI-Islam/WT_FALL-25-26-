@@ -1,0 +1,24 @@
+body{
+    background-color: white;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wt{
+  
+    width:410px;
+    box-shadow:inset;
+}
+table{
+    border: 2px solid blanchedalmond;
+    background-color: blanchedalmond;
+    width: 390px;
+    padding: 4x;
+}
+input{
+    width: 370px;
+}
+button{
+   color: white;
+   background-color: rgb(81, 81, 203);
+   width: 280px;
+}
