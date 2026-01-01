@@ -11,14 +11,18 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   form {
   width: 350px;
   margin: 100px auto;  
   padding: 20px;
   border: 2px solid green;
-  border-radius: 8px;
+  border-radius: 8px; 
   background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
   button {
     
@@ -48,11 +52,24 @@
 #L2:hover {
     width: 140px;          
 }
+#img {
+    width: 180px;
+    height: auto; 
+    margin-bottom: 15px; 
+    }
+ h3{
+    margin-bottom: 20px;
+  
+  }
+
   </style>
 <body>
-  <form>
   <h3>WELCOME TO OUR WEBSITE</h3>
-  <br><br><br><br><br><br><br><br>
+  <div>
+  <form>
+  <img src="Admin/IMAGES/logo.jpg" alt="Website Logo" id="img">
+  
+  <br><br>
   <button id="L1">ADMIN LOGIN</button><br><br>
   <button id="L2">FARMER LOGIN</button>
   <br>
@@ -60,5 +77,6 @@
   <p>If you are not a user, please Register !!</p>
   <button>Register</button>
 </form>
+</div>
 </body>
 </html>
