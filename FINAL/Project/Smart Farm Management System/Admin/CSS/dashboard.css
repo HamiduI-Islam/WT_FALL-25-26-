@@ -76,3 +76,9 @@ body {
 .logout-btn:hover {
     background-color: #388e3c;
 }
+.logo{
+    height: 150px;
+     width: 150px;
+    border-radius: 50%; 
+    margin-left: 55px;
+}
