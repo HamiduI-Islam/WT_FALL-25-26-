@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="../CSS/dashboard.css">
+    <title>Admin Dashboard</title>
+    
 </head>
 <body>
 
-    <h1>Welcome to admin dashboard</h1>
+    <div class="sidebar">
+        <h2>Smart Farm</h2>
+    
+        <a >Give Farming Tutorial</a>
+        <a > Maintain Order Process</a>
+        <a> View User Details</a>
+        <a > Manage Lease/Loan Process</a>
+        <a > Verify Land</a>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h1>Welcome, Admin</h1>
+            <a href="logout.php" class="logout">Logout</a>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <h3>Total Farmers</h3>
+                <p>--</p>
+            </div>
+        </div>
+
+        <section style="margin-top: 40px;">
+            <h3>Quick Overview</h3>
+            <p>Select an option from the sidebar to manage farm operations.</p>
+        </section>
+    </div>
 
 </body>
 </html>
