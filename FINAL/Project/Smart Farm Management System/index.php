@@ -70,7 +70,11 @@
   <img src="Admin/IMAGES/logo.jpg" alt="Website Logo" id="img">
   
   <br><br>
-  <button id="L1">ADMIN LOGIN</button><br><br>
+
+    <a href="Admin/HTML/login.html">
+    <button type="button" id="L1">ADMIN LOGIN</button>
+</a>
+<br><br>
   <button id="L2">FARMER LOGIN</button>
   <br>
   <br>
