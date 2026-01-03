@@ -54,8 +54,7 @@ $current = $seasonData[$season];
 ?>
 <head>
     <title>TUTORIAL</title>
-    <link rel="stylesheet" href="../.css">
-    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../CSS/tutorial.css">
     
 </head>
 <body>
@@ -63,10 +62,10 @@ $current = $seasonData[$season];
     <h1>Current Season: <?php echo $season; ?> </h1>
     <p>Month: <?php echo date('F'); ?></p>
     
-    <img src="../IMAGES/<?php echo $current['image']; ?>" alt="<?php echo $season; ?>">
+    <img id="img" src="../IMAGES/<?php echo $current['image']; ?>" alt="<?php echo $season; ?>">
 
-    <div class="container">
-        <div class="section">
+    
+     <div class="section">
             <h2><?php echo $current['title']; ?></h2>
             <p><strong>Time:</strong> <?php echo $current['time']; ?></p>
             
@@ -80,7 +79,8 @@ $current = $seasonData[$season];
             </ul>
             
             <p><?php echo $current['info']; ?></p>
-        </div>
+            <a href="https://www.youtube.com/results?search_query=krishi+kaj+bangladesh" target="_blank">Give Farming Tutorial Based On Season</a>
     </div>
+    
 </body>
 </body>
