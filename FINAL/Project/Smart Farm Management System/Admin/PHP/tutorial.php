@@ -60,14 +60,14 @@ $current = $seasonData[$season];
 <body>
   <body>
     <h1>Current Season: <?php echo $season; ?> </h1>
-    <p>Month: <?php echo date('F'); ?></p>
+    <p id="month">Month: <?php echo date('F'); ?></p>
     
     <img id="img" src="../IMAGES/<?php echo $current['image']; ?>" alt="<?php echo $season; ?>">
 
     
      <div class="section">
             <h2><?php echo $current['title']; ?></h2>
-            <p><strong>Time:</strong> <?php echo $current['time']; ?></p>
+            <p ><strong>Time:</strong> <?php echo $current['time']; ?></p>
             
             <p><strong>Weather:</strong></p>
             <ul>
@@ -84,3 +84,4 @@ $current = $seasonData[$season];
     
 </body>
 </body>
+
